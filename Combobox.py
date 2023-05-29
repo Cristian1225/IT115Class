@@ -22,8 +22,8 @@ combo_box = ttk.Combobox(root, values=items)
 
 combo_box.bind("<<ComboboxSelected>>", on_select)
 
-# Here we are defining the combobox
+# Here we are defining the combobox 
 combo_box.pack()
 
 
-root.mainloop()
+root.mainloop() 
